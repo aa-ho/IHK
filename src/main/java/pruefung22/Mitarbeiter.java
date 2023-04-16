@@ -1,4 +1,4 @@
-package pruefung;
+package pruefung22;
 
 public class Mitarbeiter {
     public Mitarbeiter(double gehalt) {

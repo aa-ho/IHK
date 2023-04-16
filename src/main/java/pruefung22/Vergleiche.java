@@ -1,4 +1,4 @@
-package pruefung;
+package pruefung22;
 
 public class Vergleiche {
     public static void main(String[] args) {

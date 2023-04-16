@@ -1,4 +1,4 @@
-package pruefung;
+package pruefung22;
 
 class Raum {
     public Raum(int belegung) {

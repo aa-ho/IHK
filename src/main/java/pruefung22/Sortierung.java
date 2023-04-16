@@ -1,4 +1,4 @@
-package pruefung;
+package pruefung22;
 
 import java.util.Arrays;
 
