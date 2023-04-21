@@ -25,7 +25,10 @@ public class Umrechnungen {
         String binary = "";
         System.out.println(binary);
         while (dezimahl > 0) {
-            binary = dezimahl % 2 + binary;
+            int rest = dezimahl % 2;
+            binary = rest + binary;
+            dezimahl = dezimahl / 2;
+            System.out.println(binary);
         }
         return binary;
     }
