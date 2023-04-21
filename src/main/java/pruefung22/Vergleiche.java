@@ -8,8 +8,8 @@ public class Vergleiche {
 
     public static Integer vergleicheMitarbeiter(Mitarbeiter m1, Mitarbeiter m2) {
         double diff = m1.getGehalt() - m2.getGehalt();
-        if (diff > 0) return 1;
         if (diff == 0) return 0;
-        else return -1;
+        if (diff > 0) return 1;
+        return -1;
     }
 }
